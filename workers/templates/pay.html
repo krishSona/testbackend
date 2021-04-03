@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block rightcontent %}
+<div class="ip_main_right">
+		<div class="ip_page_title2">
+			<div class="ip_page_title_text">PAY SALARY</div>
+		</div>
+		<div class="ip_page_maincont">
+			<div class="ip_page_paysalary_title">
+				<div class="form_title_label" style="border: none;">1. UPLOAD SALARY SHEET</div>
+				<div class="form_title_label">2. CHECK SHEET</div>
+				<div class="form_title_label active_label">3. PAY</div>
+			</div>
+			<div class="ip_page_paysalary_subtitle">
+				<img class="subtitle_tip_icon" src="{% static 'pages/images/tip.png' %}">
+				<div class="subtitle_text" style="width: 90%;">OPT sent to your phone {{ phone }} and email {{ email_id }}. Please enter the OTP to start salary transfer.</div>
+			</div>
+			<div class="pay_salary_form">
+				<form action="{% url 'workers:pay' %}" method="post" id="otp-form" class="was-validated">
+					{% csrf_token %}
+					<input type="hidden" name="payment_id" value="{{ payment_id }}">
+					<input type="number" name='otp' class="form_input" placeholder="Enter OTP" required/>
+					<div class="otpwrong_alert d-none">
+						<div class="otpwrong_alert1"></div>
+					</div>
+					<div class="otp_timer_cont">
+						<div class="otp_timer_label mt-1"><span id="time_remaining">120</span> seconds left.</div>
+						<div class="resendotp_msg mt-1">OTP not received? <a id="resend_otp" href="javascript:void(0)">Resend OTP</a>.</div>
+					</div>
+					<div><input type="submit" class="form_button" value="PAY"/></div>
+				</form>
+			</div>
+		</div>
+	</div>
+{% endblock rightcontent %}

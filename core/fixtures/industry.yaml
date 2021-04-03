@@ -1,0 +1,140 @@
+- model: core.industry
+  pk: 1
+  fields:
+    name: "Agriculture And Allied Industries"
+- model: core.industry
+  pk: 2
+  fields:
+    name: "Automobiles"
+- model: core.industry
+  pk: 3
+  fields:
+    name: "Auto Components"
+- model: core.industry
+  pk: 4
+  fields:
+    name: "Aviation"
+- model: core.industry
+  pk: 5
+  fields:
+    name: "Banking"
+- model: core.industry
+  pk: 6
+  fields:
+    name: "Cement"
+- model: core.industry
+  pk: 7
+  fields:
+    name: "Consumer Durables"
+- model: core.industry
+  pk: 8
+  fields:
+    name: "Ecommerce"
+- model: core.industry
+  pk: 9
+  fields:
+    name: "Education And Training"
+- model: core.industry
+  pk: 10
+  fields:
+    name: "Engineering And Capital Goods"
+- model: core.industry
+  pk: 11
+  fields:
+    name: "Financial Services"
+- model: core.industry
+  pk: 12
+  fields:
+    name: "FMCG"
+- model: core.industry
+  pk: 13
+  fields:
+    name: "Gems And Jewellery"
+- model: core.industry
+  pk: 14
+  fields:
+    name: "Healthcare"
+- model: core.industry
+  pk: 15
+  fields:
+    name: "Infrastructure"
+- model: core.industry
+  pk: 16
+  fields:
+    name: "Insurance"
+- model: core.industry
+  pk: 17
+  fields:
+    name: "IT & ITES"
+- model: core.industry
+  pk: 18
+  fields:
+    name: "Manufacturing"
+- model: core.industry
+  pk: 19
+  fields:
+    name: "Media And Entertainment"
+- model: core.industry
+  pk: 20
+  fields:
+    name: "Metals And Mining"
+- model: core.industry
+  pk: 21
+  fields:
+    name: "Oil And Gas"
+- model: core.industry
+  pk: 22
+  fields:
+    name: "Pharmaceuticals"
+- model: core.industry
+  pk: 23
+  fields:
+    name: "Ports"
+- model: core.industry
+  pk: 24
+  fields:
+    name: "Power"
+- model: core.industry
+  pk: 25
+  fields:
+    name: "Railways"
+- model: core.industry
+  pk: 26
+  fields:
+    name: "Real Estate"
+- model: core.industry
+  pk: 27
+  fields:
+    name: "Renewable Energy"
+- model: core.industry
+  pk: 28
+  fields:
+    name: "Retail"
+- model: core.industry
+  pk: 29
+  fields:
+    name: "Roads"
+- model: core.industry
+  pk: 30
+  fields:
+    name: "Science And Technology"
+- model: core.industry
+  pk: 31
+  fields:
+    name: "Services"
+- model: core.industry
+  pk: 32
+  fields:
+    name: "Steel"
+- model: core.industry
+  pk: 33
+  fields:
+    name: "Telecommunications"
+- model: core.industry
+  pk: 34
+  fields:
+    name: "Textiles"
+- model: core.industry
+  pk: 35
+  fields:
+    name: "Tourism And Hospitality"

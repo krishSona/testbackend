@@ -1,0 +1,53 @@
+# A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+django==3.0.5
+# A built-package format for Python
+wheel==0.30.0
+# Python-PostgreSQL Database Adapter
+psycopg2-binary==2.8.6
+# jQuery packaged in an handy django app to speed up new applications and deployment.
+django-jquery==3.1.0
+# A Python library to read/write Excel 2010 xlsx/xlsm files
+openpyxl==3.0.3
+# WSGI HTTP Server for UNIX
+gunicorn==20.0.4
+# A Python module to customize the process title
+setproctitle==1.1.10
+# Bootstrap support for Django projects
+django-bootstrap4==1.1.1
+# Library to integrate cashfree APIs
+cashfree-sdk
+# Python client for Redis key-value store
+redis==3.5.0
+# RQ is a simple, lightweight, library for creating background jobs, and processing them.
+rq==1.3.0
+# YAML parser and emitter for Python
+PyYAML==5.3.1
+# An app that provides django integration for RQ (Redis Queue)
+django-rq==2.3.1
+# Web APIs for Django, made easy.
+djangorestframework==3.12.1
+# Simple JWT
+djangorestframework-simplejwt==4.6.0
+# Gunicorn
+gunicorn==20.0.4
+# Set Process Title
+setproctitle==1.1.10
+# CORS HEADER
+django-cors-headers==3.5.0
+# Pillow for Image
+pillow==8.1.0
+# DRF Extra Fields for Base64 Image
+drf_extra_fields==3.0.3
+# Show URLs
+django-extensions==3.0.9
+# Generate real Swagger/OpenAPI 2.0
+drf_yasg2
+# Model level Validations
+django-dynamic-model-validation
+django-cleanup==5.1.0
+# Sendgrid Email Service
+sendgrid==6.4.8
+# firebase cloud messaging
+fcm-django==0.3.7
+# Crontab
+django-crontab==0.7.1

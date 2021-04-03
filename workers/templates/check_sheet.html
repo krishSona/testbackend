@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block rightcontent %}
+<div class="ip_main_right">
+		<div class="ip_page_title2">
+			<div class="ip_page_title_text">PAY SALARY</div>
+		</div>
+		<div class="ip_page_maincont">
+			<div class="ip_page_paysalary_title">
+				<div class="form_title_label" style="border: none;">1. UPLOAD SALARY SHEET</div>
+				<div class="form_title_label active_label">2. CHECK SHEET</div>
+				<div class="form_title_label">3. PAY</div>
+			</div>
+			<div class="ip_page_paysalary_subtitle" style="width: 97%;">
+				<img class="subtitle_tip_icon" src="{% static 'pages/images/tip.png' %}">
+				<div class="subtitle_text" style="width: 52%;"><strong>Salary advances adjusted. Check 'Net Salary' for each worker carefully. </strong><br>Click 'Proceed to Pay' button to proceed with salary transfer. </div>
+				<div class="goback_alert">Something wrong? Go back <br>and upload sheet again.</div>
+				<a href="{% url 'workers:proceed_to_pay' %}?payment_id={{payment_id}}" class="proceedtopay_button">PROCEED TO PAY</a>
+			</div>
+			<div class="check_payment_table">
+				<table style="width: 100%; font-size: 0.7em; margin: auto;">
+					<tbody>
+                    <tr style="background: #555; color: #fff;">
+						<th class="table_head">Worker ID</th>
+						<th class="table_head">Name</th>
+						<th class="table_head">Aadhaar No.</th>
+						<th class="table_head">Company</th>
+						<th class="table_head">Total Salary (INR)</th>
+						<th class="table_head">Advance Taken (INR)</th>
+						<th class="table_head">Net Salary (INR)</th>
+					</tr>
+                    {% for salary in salaries %}
+                        <tr class="table_row">
+                            <td class="table_cell">{{ salary.worker.id }}</td>
+                            <td class="table_cell" style="text-align: left;">{{ salary.worker.name }}</td>
+                            <td class="table_cell">{{ salary.worker.aadhaar_number }}</td>
+                            <td class="table_cell">{{ salary.worker.company.name }}</td>
+                            <td class="table_cell">{{ salary.total_salary }}</td>
+                            <td class="table_cell">{{ salary.advance_taken }}</td>
+                            <td class="table_cell">{{ salary.net_salary }}</td>
+                        </tr>
+                    {% endfor %}
+				</tbody>
+                </table>
+			</div>
+			{% if count > 20 %}
+				<div class="ip_page_maincont_subtitle">
+					<img class="subtitle_tip_icon" src="{% static 'pages/images/tip.png' %}">
+					<div class="subtitle_text" style="width: 52%;"><strong>Salary advances adjusted. Check 'Net Salary' for each worker carefully. </strong><br>Click 'Proceed to Pay' button to proceed with salary transfer. </div>
+					<div class="goback_alert">Something wrong? Go back <br>and upload sheet again.</div>
+					<a href="{% url 'workers:proceed_to_pay' payment_id=payment_id %}" class="proceedtopay_button">PROCEED TO PAY</a>
+				</div>
+			{% endif %}
+		</div>
+	</div>
+{% endblock rightcontent %}

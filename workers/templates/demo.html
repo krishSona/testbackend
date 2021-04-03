@@ -1,0 +1,62 @@
+{% extends 'app.html' %}
+{% load static %}
+{% load calender %}
+{% block content %}
+	<div class="app_demo_left">
+		<div class="attendance_title">MARK ATTENDANCE</div>
+		<table class="attendance_table">
+			<tr class="attendance_table_row">
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+				<th>Sat</th>
+				<th>Sun</th>
+			</tr>
+			{% for tr in trs %}
+				<tr>
+					{% for td in tds %}
+						<td class="{% attended tr td %}">{% date tr td %}</td>
+					{% endfor %}
+				</tr>
+			{% endfor %}
+		</table>
+	</div>
+	<div class="app_demo_right">
+		<div class="phone_body">
+			<div class="phone_header">
+				<div class="worker_name">
+					<div class="worker_name1">RAMESH SINGH</div>
+					<div class="company_name">MARUTI UDYOG PVT. LTD.</div>
+				</div><img class="worker_profile_pic" src="{% static 'images/worker.png' %}">
+			</div>
+			<div class="balance_screen">
+				<div class="daily_sal_label">DAILY SALARY</div>
+				<div class="daily_sal_cont">
+					<img class="indian_rupee" src="{% static 'images/rupee.png' %}">
+					<div class="daily_sal_num">0</div>
+				</div>
+				<div class="deposit_button">बैंक में जमा कीजिये</div>
+				<div class="fee_cont">
+					<div class="fee_amt">मासिक फीस: INR 75</div>
+					<div class="fee_amt">बैंक डिपोसिट फीस: 2%</div>
+					<div class="fee_msg">फीस आपकी मासिक सैलरी से पे होंगी.</div>
+				</div>
+			</div>
+			<div class="confirm_screen">
+				<div class="confirm_title">धन्यवाद!</div>
+				<div class="confirm_msg1">आपकी डेली सैलरी आपके बैंक अकाउंट में ट्रांसफर कर दी गयी है. </div>
+				<div class="confirm_bank_cont">
+					<div class="confirm_msg2">Bank Name: HDFC Bank</div>
+					<div class="confirm_msg2">Bank A/C: 5020001632746</div>
+					<div class="confirm_msg2">IFSC: HDFC0001394</div>
+					<div class="confirm_msg2">Deposited: INR <span id='balance'>4000</span>/-</div>
+					<div class="confirm_msg2">Txn. No.: AXPS7170EHAG23G</div>
+				</div>
+				<div class="confirm_msg3">२ घंटों बाद बैंक अकाउंट चेक कीजिये.</div>
+				<div class="back_button">BACK</div>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

@@ -1,0 +1,550 @@
+- model: core.company
+  pk: 1
+  fields:
+    name: "ACB India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "7th floor, Corporate Tower Ambience Mall, NH-8, Gurgaon Haryana."
+    city: 110
+    state: 7
+    pincode: "122001"
+    gstin: "1242719000"
+- model: core.company
+  pk: 2
+  fields:
+    name: "Ahluwalia Contracts India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "New Delhi / Delhi"
+    city: 213
+    state: 33
+    pincode: "110020"
+    gstin: "1242719000"
+- model: core.company
+  pk: 3
+  fields:
+    name: "Air India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "New Delhi / Delhi"
+    city: 213
+    state: 33
+    pincode: "110020"
+    gstin: "1242719000"
+- model: core.company
+  pk: 4
+  fields:
+    name: "Akzo Nobel India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "9th Floor, Magnum Towers, Golf Course Extension Road, Sector-58,Gurgaon, Haryana"
+    city: 110
+    state: 7
+    pincode: "122011"
+    gstin: "1242719000"
+- model: core.company
+  pk: 5
+  fields:
+    name: "Apl Apollo Tubes Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "36, Kaushambi, Near Anand Vihar Terminal, Ghaziabad Uttar Pradesh , 201010"
+    city: 110
+    state: 7
+    pincode: "201010"
+    gstin: "1242719000"
+- model: core.company
+  pk: 6
+  fields:
+    name: "Apollo Tyres Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "36, Kaushambi, Near Anand Vihar Terminal, Ghaziabad Uttar Pradesh , 201010"
+    city: 110
+    state: 7
+    pincode: "201010"
+    gstin: "1242719000"
+- model: core.company
+  pk: 7
+  fields:
+    name: "Asahi India Glass Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Tower-B, 5th Floor, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 8
+  fields:
+    name: "Bata India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Tower-B, 5th Floor, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 9
+  fields:
+    name: "Bennett Coleman & Co. Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Tower-B, 5th Floor, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 10
+  fields:
+    name: "Bharat Heavy Electricals Ltd (BHEL)"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Tower-B, 5th Floor, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 11
+  fields:
+    name: "Bharat Rasayan Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Tower-B, 5th Floor, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 12
+  fields:
+    name: "Bharti Airtel Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Tower-B, 5th Floor, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 13
+  fields:
+    name: "Bharti Infratel Ltd."
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 14
+  fields:
+    name: "BirlaSoft Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 15
+  fields:
+    name: "Chambal Fertilisers & Chemicals Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 16
+  fields:
+    name: "Coforge Ltd (NIIT Technologies)"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 17
+  fields:
+    name: "Container Corporation Of India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 18
+  fields:
+    name: "Cosmo Films Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 19
+  fields:
+    name: "Dabur India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 20
+  fields:
+    name: "Dalmia Bharat Sugar & Industries Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 21
+  fields:
+    name: "DCM Shriram Industries Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 22
+  fields:
+    name: "DCM Shriram Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 23
+  fields:
+    name: "DEN Networks Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 24
+  fields:
+    name: "Dhampur Sugar Mills Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 25
+  fields:
+    name: "Dhanuka Agritech Ltd."
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 26
+  fields:
+    name: "DishTV India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 27
+  fields:
+    name: "Dixon Technologies India Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 28
+  fields:
+    name: "DLF Ltd"
+    industry: 1
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 29
+  fields:
+    name: "Dominos Pizza India Ltd (Jubilant Food Works)"
+    industry: 2
+    employee_range: 1
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 30
+  fields:
+    name: "Dr. Lal PathLabs Ltd"
+    industry: 2
+    employee_range: 2
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 31
+  fields:
+    name: "Eicher Motors Ltd"
+    industry: 2
+    employee_range: 2
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 32
+  fields:
+    name: "Engineers India Ltd"
+    industry: 2
+    employee_range: 2
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 33
+  fields:
+    name: "Escorts Ltd"
+    industry: 2
+    employee_range: 2
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 34
+  fields:
+    name: "Everest Industries Ltd"
+    industry: 2
+    employee_range: 2
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 35
+  fields:
+    name: "Federal-Mogul Goetze India Ltd (Tenneco)"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 36
+  fields:
+    name: "GAIL India Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 37
+  fields:
+    name: "Gallantt Ispat Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 38
+  fields:
+    name: "GE T&D India Ltd ( Alstom )"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 39
+  fields:
+    name: "GFL Ltd(Gujarat Fluorochemicals )"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 40
+  fields:
+    name: "GHCL Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 41
+  fields:
+    name: "Globus Spirits Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 42
+  fields:
+    name: "GMR Infrastructure Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 43
+  fields:
+    name: "Godfrey Phillips India Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 44
+  fields:
+    name: "Goodyear India Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 45
+  fields:
+    name: "Greenlam Industries Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 46
+  fields:
+    name: "Havells India Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 47
+  fields:
+    name: "HCL Infosystems Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 48
+  fields:
+    name: "HCL Technologies Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 49
+  fields:
+    name: "HeidelbergCement India Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "Global Business Park, Mehrauli, Gurgaon / Gurugram Haryana"
+    city: 110
+    state: 7
+    pincode: "122002"
+    gstin: "1242719000"
+- model: core.company
+  pk: 50
+  fields:
+    name: "Hero MotoCorp Ltd"
+    industry: 3
+    employee_range: 3
+    office_address: "34 Community Centre Basant Lok, Vasant Vihar,New Delhi Delhi."
+    city: 110
+    state: 7
+    pincode: "110057"
+    gstin: "1242719000"

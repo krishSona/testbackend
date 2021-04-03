@@ -1,0 +1,1260 @@
+- model: core.city
+  pk: 1
+  fields:
+    name: "Adoni"
+- model: core.city
+  pk: 2
+  fields:
+    name: "Agartala"
+- model: core.city
+  pk: 3
+  fields:
+    name: "Agra"
+- model: core.city
+  pk: 4
+  fields:
+    name: "Ahmedabad"
+- model: core.city
+  pk: 5
+  fields:
+    name: "Ahmednagar"
+- model: core.city
+  pk: 6
+  fields:
+    name: "Aizawl"
+- model: core.city
+  pk: 7
+  fields:
+    name: "Ajmer"
+- model: core.city
+  pk: 8
+  fields:
+    name: "Akola"
+- model: core.city
+  pk: 9
+  fields:
+    name: "Alappuzha"
+- model: core.city
+  pk: 10
+  fields:
+    name: "Aligarh"
+- model: core.city
+  pk: 11
+  fields:
+    name: "Allahabad"
+- model: core.city
+  pk: 12
+  fields:
+    name: "Alwar"
+- model: core.city
+  pk: 13
+  fields:
+    name: "Amaravati"
+- model: core.city
+  pk: 14
+  fields:
+    name: "Ambala"
+- model: core.city
+  pk: 15
+  fields:
+    name: "Ambarnath"
+- model: core.city
+  pk: 16
+  fields:
+    name: "Ambattur"
+- model: core.city
+  pk: 17
+  fields:
+    name: "Amravati"
+- model: core.city
+  pk: 18
+  fields:
+    name: "Amritsar"
+- model: core.city
+  pk: 19
+  fields:
+    name: "Amroha"
+- model: core.city
+  pk: 20
+  fields:
+    name: "Anand"
+- model: core.city
+  pk: 21
+  fields:
+    name: "Anantapur"
+- model: core.city
+  pk: 22
+  fields:
+    name: "Arrah"
+- model: core.city
+  pk: 23
+  fields:
+    name: "Asansol"
+- model: core.city
+  pk: 24
+  fields:
+    name: "Aurangabad"
+- model: core.city
+  pk: 25
+  fields:
+    name: "Aurangabad"
+- model: core.city
+  pk: 26
+  fields:
+    name: "Avadi"
+- model: core.city
+  pk: 27
+  fields:
+    name: "Bahraich"
+- model: core.city
+  pk: 28
+  fields:
+    name: "Ballia"
+- model: core.city
+  pk: 29
+  fields:
+    name: "Bally"
+- model: core.city
+  pk: 30
+  fields:
+    name: "Bangalore"
+- model: core.city
+  pk: 31
+  fields:
+    name: "Baranagar"
+- model: core.city
+  pk: 32
+  fields:
+    name: "Barasat"
+- model: core.city
+  pk: 33
+  fields:
+    name: "Bardhaman"
+- model: core.city
+  pk: 34
+  fields:
+    name: "Bareilly"
+- model: core.city
+  pk: 35
+  fields:
+    name: "Bathinda"
+- model: core.city
+  pk: 36
+  fields:
+    name: "Begusarai"
+- model: core.city
+  pk: 37
+  fields:
+    name: "Belgaum"
+- model: core.city
+  pk: 38
+  fields:
+    name: "Bellary"
+- model: core.city
+  pk: 39
+  fields:
+    name: "Berhampore"
+- model: core.city
+  pk: 40
+  fields:
+    name: "Berhampur"
+- model: core.city
+  pk: 41
+  fields:
+    name: "Bettiah"
+- model: core.city
+  pk: 42
+  fields:
+    name: "Bhagalpur"
+- model: core.city
+  pk: 43
+  fields:
+    name: "Bhalswa Jahangir Pur"
+- model: core.city
+  pk: 44
+  fields:
+    name: "Bharatpur"
+- model: core.city
+  pk: 45
+  fields:
+    name: "Bhatpara"
+- model: core.city
+  pk: 46
+  fields:
+    name: "Bhavnagar"
+- model: core.city
+  pk: 47
+  fields:
+    name: "Bhilai"
+- model: core.city
+  pk: 48
+  fields:
+    name: "Bhilwara"
+- model: core.city
+  pk: 49
+  fields:
+    name: "Bhimavaram"
+- model: core.city
+  pk: 50
+  fields:
+    name: "Bhind"
+- model: core.city
+  pk: 51
+  fields:
+    name: "Bhiwandi"
+- model: core.city
+  pk: 52
+  fields:
+    name: "Bhiwani"
+- model: core.city
+  pk: 53
+  fields:
+    name: "Bhopal"
+- model: core.city
+  pk: 54
+  fields:
+    name: "Bhubaneswar"
+- model: core.city
+  pk: 55
+  fields:
+    name: "Bhusawal"
+- model: core.city
+  pk: 56
+  fields:
+    name: "Bidar"
+- model: core.city
+  pk: 57
+  fields:
+    name: "Bidhannagar"
+- model: core.city
+  pk: 58
+  fields:
+    name: "Bihar Sharif"
+- model: core.city
+  pk: 59
+  fields:
+    name: "Bijapur"
+- model: core.city
+  pk: 60
+  fields:
+    name: "Bikaner"
+- model: core.city
+  pk: 61
+  fields:
+    name: "Bilaspur"
+- model: core.city
+  pk: 62
+  fields:
+    name: "Bokaro"
+- model: core.city
+  pk: 63
+  fields:
+    name: "Bongaigaon"
+- model: core.city
+  pk: 64
+  fields:
+    name: "Bulandshahr"
+- model: core.city
+  pk: 65
+  fields:
+    name: "Burhanpur"
+- model: core.city
+  pk: 66
+  fields:
+    name: "Buxar"
+- model: core.city
+  pk: 67
+  fields:
+    name: "Chandigarh"
+- model: core.city
+  pk: 68
+  fields:
+    name: "Chandrapur"
+- model: core.city
+  pk: 69
+  fields:
+    name: "Chapra"
+- model: core.city
+  pk: 70
+  fields:
+    name: "Chennai"
+- model: core.city
+  pk: 71
+  fields:
+    name: "Chinsurah"
+- model: core.city
+  pk: 72
+  fields:
+    name: "Chittoor"
+- model: core.city
+  pk: 73
+  fields:
+    name: "Coimbatore"
+- model: core.city
+  pk: 74
+  fields:
+    name: "Cuttack"
+- model: core.city
+  pk: 75
+  fields:
+    name: "Danapur"
+- model: core.city
+  pk: 76
+  fields:
+    name: "Darbhanga"
+- model: core.city
+  pk: 77
+  fields:
+    name: "Davanagere"
+- model: core.city
+  pk: 78
+  fields:
+    name: "Dehradun"
+- model: core.city
+  pk: 79
+  fields:
+    name: "Dehri"
+- model: core.city
+  pk: 80
+  fields:
+    name: "Delhi"
+- model: core.city
+  pk: 81
+  fields:
+    name: "Deoghar"
+- model: core.city
+  pk: 82
+  fields:
+    name: "Dewas"
+- model: core.city
+  pk: 83
+  fields:
+    name: "Dhanbad"
+- model: core.city
+  pk: 84
+  fields:
+    name: "Dharmavaram"
+- model: core.city
+  pk: 85
+  fields:
+    name: "Dhule"
+- model: core.city
+  pk: 86
+  fields:
+    name: "Dibrugarh"
+- model: core.city
+  pk: 87
+  fields:
+    name: "Dindigul"
+- model: core.city
+  pk: 88
+  fields:
+    name: "Durg"
+- model: core.city
+  pk: 89
+  fields:
+    name: "Durgapur"
+- model: core.city
+  pk: 90
+  fields:
+    name: "Eluru"
+- model: core.city
+  pk: 91
+  fields:
+    name: "Erode"
+- model: core.city
+  pk: 92
+  fields:
+    name: "Etawah"
+- model: core.city
+  pk: 93
+  fields:
+    name: "Faridabad"
+- model: core.city
+  pk: 94
+  fields:
+    name: "Farrukhabad"
+- model: core.city
+  pk: 95
+  fields:
+    name: "Fatehpur"
+- model: core.city
+  pk: 96
+  fields:
+    name: "Firozabad"
+- model: core.city
+  pk: 97
+  fields:
+    name: "Gandhidham"
+- model: core.city
+  pk: 98
+  fields:
+    name: "Gandhinagar"
+- model: core.city
+  pk: 99
+  fields:
+    name: "Gangtok"
+- model: core.city
+  pk: 100
+  fields:
+    name: "Gaya"
+- model: core.city
+  pk: 101
+  fields:
+    name: "Ghaziabad"
+- model: core.city
+  pk: 102
+  fields:
+    name: "Giridih"
+- model: core.city
+  pk: 103
+  fields:
+    name: "Gopalpur"
+- model: core.city
+  pk: 104
+  fields:
+    name: "Gorakhpur"
+- model: core.city
+  pk: 105
+  fields:
+    name: "Gudivada"
+- model: core.city
+  pk: 106
+  fields:
+    name: "Gulbarga"
+- model: core.city
+  pk: 107
+  fields:
+    name: "Guna"
+- model: core.city
+  pk: 108
+  fields:
+    name: "Guntakal"
+- model: core.city
+  pk: 109
+  fields:
+    name: "Guntur"
+- model: core.city
+  pk: 110
+  fields:
+    name: "Gurgaon"
+- model: core.city
+  pk: 111
+  fields:
+    name: "Guwahati"
+- model: core.city
+  pk: 112
+  fields:
+    name: "Gwalior"
+- model: core.city
+  pk: 113
+  fields:
+    name: "Hajipur"
+- model: core.city
+  pk: 114
+  fields:
+    name: "Haldia"
+- model: core.city
+  pk: 115
+  fields:
+    name: "Hapur"
+- model: core.city
+  pk: 116
+  fields:
+    name: "Haridwar"
+- model: core.city
+  pk: 117
+  fields:
+    name: "Hazaribagh"
+- model: core.city
+  pk: 118
+  fields:
+    name: "Hindupur"
+- model: core.city
+  pk: 119
+  fields:
+    name: "Hospet"
+- model: core.city
+  pk: 120
+  fields:
+    name: "Hosur"
+- model: core.city
+  pk: 121
+  fields:
+    name: "Howrah"
+- model: core.city
+  pk: 122
+  fields:
+    name: "Hubli Dharwad"
+- model: core.city
+  pk: 123
+  fields:
+    name: "Hyderabad"
+- model: core.city
+  pk: 124
+  fields:
+    name: "Ichalkaranji"
+- model: core.city
+  pk: 125
+  fields:
+    name: "Imphal"
+- model: core.city
+  pk: 126
+  fields:
+    name: "Indore"
+- model: core.city
+  pk: 127
+  fields:
+    name: "Jabalpur"
+- model: core.city
+  pk: 128
+  fields:
+    name: "Jaipur"
+- model: core.city
+  pk: 129
+  fields:
+    name: "Jalandhar"
+- model: core.city
+  pk: 130
+  fields:
+    name: "Jalgaon"
+- model: core.city
+  pk: 131
+  fields:
+    name: "Jalna"
+- model: core.city
+  pk: 132
+  fields:
+    name: "Jamalpur"
+- model: core.city
+  pk: 133
+  fields:
+    name: "Jammu"
+- model: core.city
+  pk: 134
+  fields:
+    name: "Jamnagar"
+- model: core.city
+  pk: 135
+  fields:
+    name: "Jamshedpur"
+- model: core.city
+  pk: 136
+  fields:
+    name: "Jaunpur"
+- model: core.city
+  pk: 137
+  fields:
+    name: "Jehanabad"
+- model: core.city
+  pk: 138
+  fields:
+    name: "Jhansi"
+- model: core.city
+  pk: 139
+  fields:
+    name: "Jodhpur"
+- model: core.city
+  pk: 140
+  fields:
+    name: "Jorhat"
+- model: core.city
+  pk: 141
+  fields:
+    name: "Junagadh"
+- model: core.city
+  pk: 142
+  fields:
+    name: "Kadapa"
+- model: core.city
+  pk: 143
+  fields:
+    name: "Kakinada"
+- model: core.city
+  pk: 144
+  fields:
+    name: "Kalyan Dombivli"
+- model: core.city
+  pk: 145
+  fields:
+    name: "Kamarhati"
+- model: core.city
+  pk: 146
+  fields:
+    name: "Kanpur"
+- model: core.city
+  pk: 147
+  fields:
+    name: "Karaikudi"
+- model: core.city
+  pk: 148
+  fields:
+    name: "Karawal Nagar"
+- model: core.city
+  pk: 149
+  fields:
+    name: "Karimnagar"
+- model: core.city
+  pk: 150
+  fields:
+    name: "Karnal"
+- model: core.city
+  pk: 151
+  fields:
+    name: "Katihar"
+- model: core.city
+  pk: 152
+  fields:
+    name: "Katni"
+- model: core.city
+  pk: 153
+  fields:
+    name: "Kavali"
+- model: core.city
+  pk: 154
+  fields:
+    name: "Khammam"
+- model: core.city
+  pk: 155
+  fields:
+    name: "Khandwa"
+- model: core.city
+  pk: 156
+  fields:
+    name: "Kharagpur"
+- model: core.city
+  pk: 157
+  fields:
+    name: "Kirari Suleman Nagar"
+- model: core.city
+  pk: 158
+  fields:
+    name: "Kishanganj"
+- model: core.city
+  pk: 159
+  fields:
+    name: "Kochi"
+- model: core.city
+  pk: 160
+  fields:
+    name: "Kolhapur"
+- model: core.city
+  pk: 161
+  fields:
+    name: "Kolkata"
+- model: core.city
+  pk: 162
+  fields:
+    name: "Kollam"
+- model: core.city
+  pk: 163
+  fields:
+    name: "Korba"
+- model: core.city
+  pk: 164
+  fields:
+    name: "Kota"
+- model: core.city
+  pk: 165
+  fields:
+    name: "Kottayam"
+- model: core.city
+  pk: 166
+  fields:
+    name: "Kozhikode"
+- model: core.city
+  pk: 167
+  fields:
+    name: "Kulti"
+- model: core.city
+  pk: 168
+  fields:
+    name: "Kumbakonam"
+- model: core.city
+  pk: 169
+  fields:
+    name: "Kurnool"
+- model: core.city
+  pk: 170
+  fields:
+    name: "Latur"
+- model: core.city
+  pk: 171
+  fields:
+    name: "Loni"
+- model: core.city
+  pk: 172
+  fields:
+    name: "Lucknow"
+- model: core.city
+  pk: 173
+  fields:
+    name: "Ludhiana"
+- model: core.city
+  pk: 174
+  fields:
+    name: "Machilipatnam"
+- model: core.city
+  pk: 175
+  fields:
+    name: "Madanapalle"
+- model: core.city
+  pk: 176
+  fields:
+    name: "Madhyamgram"
+- model: core.city
+  pk: 177
+  fields:
+    name: "Madurai"
+- model: core.city
+  pk: 178
+  fields:
+    name: "Mahbubnagar"
+- model: core.city
+  pk: 179
+  fields:
+    name: "Maheshtala"
+- model: core.city
+  pk: 180
+  fields:
+    name: "Malda"
+- model: core.city
+  pk: 181
+  fields:
+    name: "Malegaon"
+- model: core.city
+  pk: 182
+  fields:
+    name: "Mangalore"
+- model: core.city
+  pk: 183
+  fields:
+    name: "Mango"
+- model: core.city
+  pk: 184
+  fields:
+    name: "Mathura"
+- model: core.city
+  pk: 185
+  fields:
+    name: "Mau"
+- model: core.city
+  pk: 186
+  fields:
+    name: "Medininagar"
+- model: core.city
+  pk: 187
+  fields:
+    name: "Meerut"
+- model: core.city
+  pk: 188
+  fields:
+    name: "Mehsana"
+- model: core.city
+  pk: 189
+  fields:
+    name: "Mira Bhayandar"
+- model: core.city
+  pk: 190
+  fields:
+    name: "Miryalaguda"
+- model: core.city
+  pk: 191
+  fields:
+    name: "Mirzapur"
+- model: core.city
+  pk: 192
+  fields:
+    name: "Moradabad"
+- model: core.city
+  pk: 193
+  fields:
+    name: "Morbi"
+- model: core.city
+  pk: 194
+  fields:
+    name: "Morena"
+- model: core.city
+  pk: 195
+  fields:
+    name: "Motihari"
+- model: core.city
+  pk: 196
+  fields:
+    name: "Mumbai"
+- model: core.city
+  pk: 197
+  fields:
+    name: "Munger"
+- model: core.city
+  pk: 198
+  fields:
+    name: "Muzaffarnagar"
+- model: core.city
+  pk: 199
+  fields:
+    name: "Muzaffarpur"
+- model: core.city
+  pk: 200
+  fields:
+    name: "Mysore"
+- model: core.city
+  pk: 201
+  fields:
+    name: "Nadiad"
+- model: core.city
+  pk: 202
+  fields:
+    name: "Nagaon"
+- model: core.city
+  pk: 203
+  fields:
+    name: "Nagercoil"
+- model: core.city
+  pk: 204
+  fields:
+    name: "Nagpur"
+- model: core.city
+  pk: 205
+  fields:
+    name: "Naihati"
+- model: core.city
+  pk: 206
+  fields:
+    name: "Nanded"
+- model: core.city
+  pk: 207
+  fields:
+    name: "Nandyal"
+- model: core.city
+  pk: 208
+  fields:
+    name: "Nangloi Jat"
+- model: core.city
+  pk: 209
+  fields:
+    name: "Narasaraopet"
+- model: core.city
+  pk: 210
+  fields:
+    name: "Nashik"
+- model: core.city
+  pk: 211
+  fields:
+    name: "Navi Mumbai"
+- model: core.city
+  pk: 212
+  fields:
+    name: "Nellore"
+- model: core.city
+  pk: 213
+  fields:
+    name: "New Delhi"
+- model: core.city
+  pk: 214
+  fields:
+    name: "Nizamabad"
+- model: core.city
+  pk: 215
+  fields:
+    name: "Noida"
+- model: core.city
+  pk: 216
+  fields:
+    name: "North Dumdum"
+- model: core.city
+  pk: 217
+  fields:
+    name: "Ongole"
+- model: core.city
+  pk: 218
+  fields:
+    name: "Orai"
+- model: core.city
+  pk: 219
+  fields:
+    name: "Ozhukarai"
+- model: core.city
+  pk: 220
+  fields:
+    name: "Pali"
+- model: core.city
+  pk: 221
+  fields:
+    name: "Pallavaram"
+- model: core.city
+  pk: 222
+  fields:
+    name: "Panchkula"
+- model: core.city
+  pk: 223
+  fields:
+    name: "Panihati"
+- model: core.city
+  pk: 224
+  fields:
+    name: "Panipat"
+- model: core.city
+  pk: 225
+  fields:
+    name: "Panvel"
+- model: core.city
+  pk: 226
+  fields:
+    name: "Parbhani"
+- model: core.city
+  pk: 227
+  fields:
+    name: "Patiala"
+- model: core.city
+  pk: 228
+  fields:
+    name: "Patna"
+- model: core.city
+  pk: 229
+  fields:
+    name: "Phagwara"
+- model: core.city
+  pk: 230
+  fields:
+    name: "Phusro"
+- model: core.city
+  pk: 231
+  fields:
+    name: "Pimpri Chinchwad"
+- model: core.city
+  pk: 232
+  fields:
+    name: "Pondicherry"
+- model: core.city
+  pk: 233
+  fields:
+    name: "Proddatur"
+- model: core.city
+  pk: 234
+  fields:
+    name: "Pudukkottai"
+- model: core.city
+  pk: 235
+  fields:
+    name: "Pune"
+- model: core.city
+  pk: 236
+  fields:
+    name: "Purnia"
+- model: core.city
+  pk: 237
+  fields:
+    name: "Raebareli"
+- model: core.city
+  pk: 238
+  fields:
+    name: "Raichur"
+- model: core.city
+  pk: 239
+  fields:
+    name: "Raiganj"
+- model: core.city
+  pk: 240
+  fields:
+    name: "Raipur"
+- model: core.city
+  pk: 241
+  fields:
+    name: "Rajahmundry"
+- model: core.city
+  pk: 242
+  fields:
+    name: "Rajkot"
+- model: core.city
+  pk: 243
+  fields:
+    name: "Rajpur Sonarpur"
+- model: core.city
+  pk: 244
+  fields:
+    name: "Ramagundam"
+- model: core.city
+  pk: 245
+  fields:
+    name: "Ramgarh"
+- model: core.city
+  pk: 246
+  fields:
+    name: "Rampur"
+- model: core.city
+  pk: 247
+  fields:
+    name: "Ranchi"
+- model: core.city
+  pk: 248
+  fields:
+    name: "Ratlam"
+- model: core.city
+  pk: 249
+  fields:
+    name: "Raurkela Industrial Township"
+- model: core.city
+  pk: 250
+  fields:
+    name: "Rewa"
+- model: core.city
+  pk: 251
+  fields:
+    name: "Rohtak"
+- model: core.city
+  pk: 252
+  fields:
+    name: "Rourkela"
+- model: core.city
+  pk: 253
+  fields:
+    name: "Sagar"
+- model: core.city
+  pk: 254
+  fields:
+    name: "Saharanpur"
+- model: core.city
+  pk: 255
+  fields:
+    name: "Saharsa"
+- model: core.city
+  pk: 256
+  fields:
+    name: "Salem"
+- model: core.city
+  pk: 257
+  fields:
+    name: "Sambalpur"
+- model: core.city
+  pk: 258
+  fields:
+    name: "Sambhal"
+- model: core.city
+  pk: 259
+  fields:
+    name: "Sangli Miraj & Kupwad"
+- model: core.city
+  pk: 260
+  fields:
+    name: "Sasaram"
+- model: core.city
+  pk: 261
+  fields:
+    name: "Satara"
+- model: core.city
+  pk: 262
+  fields:
+    name: "Satna"
+- model: core.city
+  pk: 263
+  fields:
+    name: "Secunderabad"
+- model: core.city
+  pk: 264
+  fields:
+    name: "Serampore"
+- model: core.city
+  pk: 265
+  fields:
+    name: "Shahjahanpur"
+- model: core.city
+  pk: 266
+  fields:
+    name: "Shimla"
+- model: core.city
+  pk: 267
+  fields:
+    name: "Shimoga"
+- model: core.city
+  pk: 268
+  fields:
+    name: "Shivpuri"
+- model: core.city
+  pk: 269
+  fields:
+    name: "Sikar"
+- model: core.city
+  pk: 270
+  fields:
+    name: "Silchar"
+- model: core.city
+  pk: 271
+  fields:
+    name: "Siliguri"
+- model: core.city
+  pk: 272
+  fields:
+    name: "Singrauli"
+- model: core.city
+  pk: 273
+  fields:
+    name: "Sirsa"
+- model: core.city
+  pk: 274
+  fields:
+    name: "Siwan "
+- model: core.city
+  pk: 275
+  fields:
+    name: "Solapur"
+- model: core.city
+  pk: 276
+  fields:
+    name: "Sonipat"
+- model: core.city
+  pk: 277
+  fields:
+    name: "South Dumdum"
+- model: core.city
+  pk: 278
+  fields:
+    name: "Sri Ganganagar"
+- model: core.city
+  pk: 279
+  fields:
+    name: "Srikakulam"
+- model: core.city
+  pk: 280
+  fields:
+    name: "Srinagar"
+- model: core.city
+  pk: 281
+  fields:
+    name: "Sultan Pur Majra"
+- model: core.city
+  pk: 282
+  fields:
+    name: "Surat"
+- model: core.city
+  pk: 283
+  fields:
+    name: "Surendranagar Dudhrej"
+- model: core.city
+  pk: 284
+  fields:
+    name: "Suryapet"
+- model: core.city
+  pk: 285
+  fields:
+    name: "Tadepalligudem"
+- model: core.city
+  pk: 286
+  fields:
+    name: "Tadipatri"
+- model: core.city
+  pk: 287
+  fields:
+    name: "Tenali"
+- model: core.city
+  pk: 288
+  fields:
+    name: "Tezpur"
+- model: core.city
+  pk: 289
+  fields:
+    name: "Thane"
+- model: core.city
+  pk: 290
+  fields:
+    name: "Thanjavur"
+- model: core.city
+  pk: 291
+  fields:
+    name: "Thiruvananthapuram"
+- model: core.city
+  pk: 292
+  fields:
+    name: "Thoothukudi"
+- model: core.city
+  pk: 293
+  fields:
+    name: "Thrissur"
+- model: core.city
+  pk: 294
+  fields:
+    name: "Tinsukia"
+- model: core.city
+  pk: 295
+  fields:
+    name: "Tiruchirappalli"
+- model: core.city
+  pk: 296
+  fields:
+    name: "Tirunelveli"
+- model: core.city
+  pk: 297
+  fields:
+    name: "Tirupati "
+- model: core.city
+  pk: 298
+  fields:
+    name: "Tiruppur"
+- model: core.city
+  pk: 299
+  fields:
+    name: "Tiruvottiyur"
+- model: core.city
+  pk: 300
+  fields:
+    name: "Tumkur"
+- model: core.city
+  pk: 301
+  fields:
+    name: "Udaipur"
+- model: core.city
+  pk: 302
+  fields:
+    name: "Udupi"
+- model: core.city
+  pk: 303
+  fields:
+    name: "Ujjain"
+- model: core.city
+  pk: 304
+  fields:
+    name: "Ulhasnagar"
+- model: core.city
+  pk: 305
+  fields:
+    name: "Uluberia"
+- model: core.city
+  pk: 306
+  fields:
+    name: "Unnao"
+- model: core.city
+  pk: 307
+  fields:
+    name: "Vadodara"
+- model: core.city
+  pk: 308
+  fields:
+    name: "Varanasi"
+- model: core.city
+  pk: 309
+  fields:
+    name: "Vasai Virar"
+- model: core.city
+  pk: 310
+  fields:
+    name: "Vellore"
+- model: core.city
+  pk: 311
+  fields:
+    name: "Vijayanagaram"
+- model: core.city
+  pk: 312
+  fields:
+    name: "Vijayawada"
+- model: core.city
+  pk: 313
+  fields:
+    name: "Visakhapatnam"
+- model: core.city
+  pk: 314
+  fields:
+    name: "Warangal"
+- model: core.city
+  pk: 315
+  fields:
+    name: "Yamunanagar"

@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block rightcontent %}
+    <div class="ip_main_right">
+		<div class="ip_page_title2">
+			<div class="ip_page_title_text">PAY SALARY</div>
+		</div>
+		<div class="ip_page_maincont">
+			<div class="ip_page_paysalary_title">
+				<div class="form_title_label active_label" style="border: none;">1. UPLOAD SALARY SHEET</div>
+				<div class="form_title_label">2. CHECK SHEET</div>
+				<div class="form_title_label">3. PAY</div>
+			</div>
+			<div class="ip_page_paysalary_subtitle">
+				<img class="subtitle_tip_icon" src="{% static 'pages/images/tip.png' %}">
+				<div class="subtitle_text" style="width: 90%;">Before uploading the Salary Transfer sheet, please ensure that you have adequate balance in your Daily Salary bank account to transfer salaries.</div>
+			</div>
+			<div class="pay_salary_form">
+				<form action="{% url 'workers:upload_salary_sheet' %}" method="post" enctype="multipart/form-data" class="was-validated">
+					{% csrf_token %}
+					<div class="form-group">
+						<input type="text" maxlength="150" class="form_input" name="title" placeholder="Title (e.g. March 2020 Salary for Maruti workers)" value="{{ title }}" required/>
+						<div class="valid-feedback">Valid.</div>
+						<div class="invalid-feedback">Please fill out this field.</div>
+					</div>
+					<div class="form-group">
+						<input type="text" maxlength="50" class="form_input" name="salary_month" placeholder="Salary Month" value="{{ salary_month }}" required/>
+						<div class="valid-feedback">Valid.</div>
+						<div class="invalid-feedback">Please fill out this field.</div>
+					</div>
+					<div class="form-group">
+						<input type="number" min="1" max="500" class="form_input" name="no_of_workers" placeholder="No. of workers" value="{{ no_of_workers }}" required/>
+						<div class="valid-feedback">Valid.</div>
+						<div class="invalid-feedback">Please fill out this field.</div>
+					</div>
+					<div class="form-group">
+						<input type="number" min="1" max="350000" class="form_input" name="total_salary_amount" placeholder="Total salary amount (INR)" value="{{ total_salary_amount }}" required/>
+						<div class="valid-feedback">Valid.</div>
+						<div class="invalid-feedback">Please fill out this field.</div>
+					</div>
+					<div class="lowbal_alert d-none">
+						<div class="lowbal_alert1">Sorry! You have insufficient balance for this salary transfer.</div>
+						<div class="lowbal_alert2">Please add INR XXXX to your Daily Salary A/c and try again. </div>
+					</div>
+					<div class="form-group">
+						<div class="upload_left">
+							<div class="upload_label">Select Salary Transfer Sheet</div>
+							<div class="upload_label2">Download Sample Sheet</div>
+						</div>
+						<input type="file" name="salary_sheet" class="form-control-file w-auto d-inline-block" required/>
+					</div>
+					<input type="submit" class="form_button" value="UPLOAD SHEET"/>
+				</form>
+			</div>
+		</div>
+	</div>
+{% endblock rightcontent %}

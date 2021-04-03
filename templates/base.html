@@ -1,0 +1,73 @@
+{% load bootstrap4 %}
+{% load static %}
+{% load payout %}
+<html>
+	<head>
+		<title>Daily Salary</title>
+<!--		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">-->
+<!--		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">-->
+<!--		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">-->
+<!--		<link rel="manifest" href="/site.webmanifest">-->
+		{% load bootstrap4 %}
+		{% bootstrap_css %}
+		{% bootstrap_javascript jquery='full' %}
+		<link href="{% static 'css/base.css' %}" rel="stylesheet">
+		<script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
+	</head>
+	<body>
+		{% if user.is_authenticated %}
+			<div class="ip_header">
+				<a href="{% url 'home' %}"><img class="ip_ds_logo_img" src="{% static 'images/dailysalarysinglelinelogo.png' %}"></a><a href="{% url 'workers:app' %}" style="vertical-align: bottom;font-size: 11px;">App</a>
+				<div class="ip_header_right_cont">
+					<div class="ip_header_name">{{ user.name }}</div>
+					<div class="ip_header_label">A/C Balance</div>
+					<div class="ip_header_balance">INR {% get_balance %}</div>
+					<div class="ip_header_logout"><a href="{% url 'logout' %}" class="link">Logout</a></div>
+				</div>
+			</div>
+			<div class="ip_main_menu">
+				<div class="ip_menu_label active_menu"><a href="{% url 'workers:index'%}" class="white link">Manage Workers</a></div>
+				<div class="ip_menu_label"><a href="{% url 'workers:pay_salary'%}" class="white link">Pay Salary</a></div>
+				<div class="ip_menu_label"><a href="{% url 'workers:payment_status'%}" class="white link">Payment Status</a></div>
+				<div class="ip_menu_label"><a href="{% url 'home'%}" class="white link">Attendance Register</a></div>
+				<div class="ip_menu_label"><a href="{% url 'home'%}" class="white link">Advance Register</a></div>
+				<div class="ip_menu_label"><a href="{% url 'home'%}" class="white link">Salary Register</a></div>
+				<div class="ds_account_info">
+					<div class="account_label">Bank Name</div>
+					<div class="account_item">HDFC Bank</div>
+					<div class="account_label">A/C Name</div>
+					<div class="account_item">Vashisht Manpower</div>
+					<div class="account_label">A/C Number</div>
+					<div class="account_item">50200013621822</div>
+					<div class="account_label">IFSC Code</div>
+					<div class="account_item">HDFC0001394</div>
+				</div>
+			</div>
+			{% if messages %}
+				{% for message in messages %}
+					<div class="message alert alert-{% if message.tags %}{{ message.tags }}{% endif %} alert-dismissible fade show" role="alert">
+					  {{ message }}
+					  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					  </button>
+					</div>
+				{% endfor %}
+			{% endif %}
+			{% block rightcontent %}
+			{% endblock rightcontent %}
+		{% else %}
+			<div class="hp_header">
+				<a href="{% url 'home' %}"><img class="ds_logo_img" src="{% static 'images/dailysalarysinglelinelogo.png' %}"/></a>
+				<img class="logo_right_icon" src="{% static 'images/icca_logo_2.png' %}"/>
+			</div>
+			{% block content %}
+			{% endblock content %}
+			<div class="hp_footer">
+				<a href="{% url 'privacy_policies' %}" class="footer_item">PRIVACY POLICY</a>
+				<a href="{% url 'terms_and_conditions' %}" class="footer_item">TERMS &amp; CONDITIONS</a>
+				<div class="footer_item_right">© 2020 NSquared Systems Private Limited</div>
+			</div>
+		{% endif %}
+	</body>
+</html>

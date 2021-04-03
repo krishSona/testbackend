@@ -1,0 +1,50 @@
+# Tell nginx that there's an external server called @staging_core_dailysalary_in living at our socket
+upstream staging_core_dailysalary_in {
+  server unix:/var/lib/jenkins/workspace/backend/gunicorn/run/gunicorn.sock fail_timeout=0;
+}
+server {
+  # Accept connections on staging-core.dailysalary.in:80
+  listen 80;
+  listen [::]:80;
+
+  server_name staging-core.dailysalary.in;
+  return 301 https://staging-core.dailysalary.in$request_uri;
+}
+server {
+  # Accept connections on staging-core.dailysalary.in:443
+  listen 443 ssl;
+  listen [::]:443 ssl;
+
+  server_name staging-core.dailysalary.in;
+
+  ssl_certificate /home/ubuntu/ssl/dailysalary.in.crt;
+  ssl_certificate_key /home/ubuntu/ssl/dailysalary.in.key;
+
+  # If a path doesn't exist on disk, forward the request to @pg
+  try_files $uri/index.html $uri;
+
+  # Set some configuration options on requests forwarded to @pg
+  location / {
+    proxy_pass http://staging_core_dailysalary_in;
+	proxy_http_version  1.1;
+    proxy_cache_bypass  $http_upgrade;
+
+    proxy_set_header Upgrade           $http_upgrade;
+    proxy_set_header Connection        "upgrade";
+    proxy_set_header Host              $host;
+    proxy_set_header X-Real-IP         $remote_addr;
+    proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header X-Forwarded-Host  $host;
+    proxy_set_header X-Forwarded-Port  $server_port;
+  }
+
+  location /staticfiles {
+    autoindex on;
+    alias /var/lib/jenkins/workspace/backend/staticfiles/;
+  }
+  location /media {
+    autoindex on;
+    alias /var/lib/jenkins/workspace/backend/media/;
+  }
+}

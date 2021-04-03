@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	{% if user.is_authenticated %}
+		{% block rightcontent %}
+		{% endblock rightcontent %}
+	{% else %}
+		<div class="home_page">
+			<div class="hp_main_cont">
+				<div class="hp_main_cont_left">
+					<div class="title_line1">DAILY</div>
+					<div class="title_line2">SALARY</div>
+					<div class="title_line3">A better way to pay your workers</div>
+				</div>
+				<div class="hp_main_cont_right">
+					<div class="login_title">Coming Soon!</div>
+					<form method="post" action="{% url 'login' %}">
+						{% csrf_token %}
+						<input type="text" name="username" autofocus autocapitalize="none" autocomplete="username" maxlength="150" required id="id_username" class="login_entry_box" placeholder="Email"/>
+						<input type="password" name="password" autocomplete="current-password" required id="id_password" class="login_entry_box" placeholder="Password"/>
+						<button type="submit" class="login_button">LOGIN</button>
+					</form>
+					<div class="sign_up_text">New Manpower Contractor? Sign up here</div>
+				</div>
+			</div>
+			<div class="hpsection_question_cont">
+				<div class="whatis_answer2">
+					<img class="hpsection_wallet_image" src="{% static 'pages/images/WalletUI.png' %}"/>
+					<div class="hp_question_cont_text">		
+						<div class="whatis_answer">Daily Salary is a digital 'Salary Wallet' for your workers.</div>
+							<p>Most blue-collar workers live paycheck to paycheck, barely meeting their living expenses every month. Even when workers run short of money, they have to wait till the next salary day to get their wages. This causes tremendous hardship for workers and their families.</p>
+							<p>With Daily Salary, workers receive 50% of the day's wages <strong>immediately</strong> in a digital 'Salary Wallet'. Instead of having to wait till the next salary day to get paid, workers can withdraw their wages from their Salary Wallet whenever they run short of money.</p>
+							<p>By giving workers immediate access to their earned wages, Daily Salary ensures that workers always have money to meet their living expenses.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hpsection_cont">
+				<div class="hpsection_subcont_workers">
+					<img class="hpsection_worker_image" src="{% static 'pages/images/HP_worker.png' %}">
+					<div class="hpsection_worker_text">
+						<div class="hpsection_worker_text1" style="font-size: 3em;">Happier Workers</div>
+						<div class="hpsection_worker_text2">
+							<p>With Daily Salary Wallet, workers don't have to wait till salary day to get paid. For every day they work, they receive 50% wages immediately in their Daily Salary Wallet.</p>
+							<p>Whenever they run short of money, workers can withdraw their earned wages from their Salary Wallet with just 1 tap.</p>
+						</div>
+					</div>
+				</div>
+				<div class="hpsection_subcont_contractors">
+					<img class="hpsection_contractor_image" src="{% static 'pages/images/HP_company.png' %}">
+					<div class="hpsection_contractor_text">
+						<div class="hpsection_contractor_text1" style="font-size: 3em;">Happier Companies</div>
+						<div class="hpsection_contractor_text2">
+							<p>Daily Salary helps companies <strong>slash worker attrition by ~20%</strong>. Since workers get paid immediately for every day, absenteeism drops and productivity goes up.</p>
+							<p>Moreover, Daily Salary comes to zero cost to the company and is very simple to implement.</p>
+						</div>
+					</div>
+				</div>
+				<div class="hpsection_subcont_company">
+					<img class="hpsection_company_image" src="{% static 'pages/images/HP_contractor.png' %}">
+					<div class="hpsection_company_text">
+						<div class="hpsection_company_text1" style="font-size: 3em;">Happier Contractors</div>
+						<div class="hpsection_company_text2">
+							<p>Manpower contractors can earn a significant monthly commission - simply for providing Daily Salary Wallets to their workers. Thus, Daily Salary helps contractors increases their profits by as much as 5 to 10%.</p>
+							<p>Moreover, Daily Salary helps contractors attract new workers, which reduces hiring costs and further improves business margins.</p> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="hpsection_contactus">
+				<div class="contactus_title">Daily Salary is launching soon</div>
+				<div class="contactus_title2">To get Daily Salary Wallets for your workers, contact us today.</div>
+				<div class="contactus_cont">
+					<div class="contactus_companyinfo">
+						<div class="companyinfo_name">NSquared Systems Private Limited</div>
+						<div class="companyinfo_address">806, Spaze Platinum Tower, Sohna Road, </br>Sector 47, Gurgaon - 122001</br>Haryana (India)</div>
+					</div>
+					<div class="contactus_associnfo">
+						<div class="associnfo_name">Reach us at:</div>
+						<div class="associnfo_desc">
+							<p>Email: contact@dailysalary.in</p>
+							<p>Phone: +91 9717300782</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	{% endif %}
+{% endblock content %}

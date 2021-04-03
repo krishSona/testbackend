@@ -1,0 +1,44 @@
+- model: core.designation
+  pk: 1
+  fields:
+    name: "Regional Manager"
+- model: core.designation
+  pk: 2
+  fields:
+    name: "Store Manager"
+- model: core.designation
+  pk: 3
+  fields:
+    name: "Technology Manager"
+- model: core.designation
+  pk: 4
+  fields:
+    name: "Recruitment Manager"
+- model: core.designation
+  pk: 5
+  fields:
+    name: "Accounts Manager"
+- model: core.designation
+  pk: 6
+  fields:
+    name: "Chief Legal Officer"
+- model: core.designation
+  pk: 7
+  fields:
+    name: "Chief Marketing Officer"
+- model: core.designation
+  pk: 8
+  fields:
+    name: "Chief Technology Officer"
+- model: core.designation
+  pk: 9
+  fields:
+    name: "Chief Financial Officer"
+- model: core.designation
+  pk: 10
+  fields:
+    name: "Chief Operating Officer"
+- model: core.designation
+  pk: 11
+  fields:
+    name: "Chief Executive Officer"

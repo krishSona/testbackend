@@ -1,0 +1,13 @@
+{% load static %}
+<html>
+	<head>
+		<title>Daily Salary</title>
+        <link href="{% static 'css/base.css' %}" rel="stylesheet">
+		<script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/base.js' %}"></script>
+	</head>
+	<body style="margin: 0px; font-family: arial; text-align: center; background: #de0000;">
+		{% block content %}
+		{% endblock content %}
+    </body>
+</html>

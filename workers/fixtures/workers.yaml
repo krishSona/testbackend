@@ -1,0 +1,408 @@
+# users
+- model: authentication.user
+  pk: 1
+  fields:
+    name: 'Aashutosh Chaudhary'
+    phone: '9990502220'
+    email: 'ashugodia@gmail.com'
+    password: 'pbkdf2_sha256$180000$lfRe3DQfcjEO$JCBrlRLg2HhhbrjUUvOeuf6fQhpZ2rQewzYzkz/6bNI='
+    is_active: True
+    is_admin: True
+# companies
+- model: workers.company
+  pk: 1
+  fields:
+    name: 'Accenture'
+- model: workers.company
+  pk: 2
+  fields:
+    name: 'Bharti Axa'
+- model: workers.company
+  pk: 3
+  fields:
+    name: 'SamSoft'
+- model: workers.company
+  pk: 4
+  fields:
+    name: 'Unnati Online'
+- model: workers.company
+  pk: 5
+  fields:
+    name: 'Mobiloitte'
+- model: workers.company
+  pk: 6
+  fields:
+    name: 'DHFL'
+- model: workers.company
+  pk: 7
+  fields:
+    name: 'Teamlease'
+- model: workers.company
+  pk: 8
+  fields:
+    name: 'Dominos'
+- model: workers.company
+  pk: 9
+  fields:
+    name: 'Policy Bazaar'
+- model: workers.company
+  pk: 10
+  fields:
+    name: 'Aegis'
+- model: workers.company
+  pk: 11
+  fields:
+    name: 'One Point One'
+# cities
+- model: workers.city
+  pk: 1
+  fields:
+    name: 'Allahabad'
+- model: workers.city
+  pk: 2
+  fields:
+    name: 'Jamshedpur'
+- model: workers.city
+  pk: 3
+  fields:
+    name: 'Gajraula'
+- model: workers.city
+  pk: 4
+  fields:
+    name: 'Amroha'
+- model: workers.city
+  pk: 5
+  fields:
+    name: 'Noida'
+- model: workers.city
+  pk: 6
+  fields:
+    name: 'Farukh Nagar'
+- model: workers.city
+  pk: 7
+  fields:
+    name: 'Darbhanga'
+- model: workers.city
+  pk: 8
+  fields:
+    name: 'Gurugram'
+- model: workers.city
+  pk: 9
+  fields:
+    name: 'Delhi'
+- model: workers.city
+  pk: 10
+  fields:
+    name: 'Saharanpur'
+- model: workers.city
+  pk: 11
+  fields:
+    name: 'Gurgaon'
+# Designations
+- model: workers.designation
+  pk: 1
+  fields:
+    title: 'Chief Executive Officer'
+- model: workers.designation
+  pk: 2
+  fields:
+    title: 'Chief Operating Officer'
+- model: workers.designation
+  pk: 3
+  fields:
+    title: 'Chief Technology Officer'
+- model: workers.designation
+  pk: 4
+  fields:
+    title: 'General Manager'
+- model: workers.designation
+  pk: 5
+  fields:
+    title: 'Software Engineer'
+- model: workers.designation
+  pk: 6
+  fields:
+    title: 'Customer Care Executive'
+- model: workers.designation
+  pk: 7
+  fields:
+    title: 'HR Manager'
+- model: workers.designation
+  pk: 8
+  fields:
+    title: 'Office Admin'
+- model: workers.designation
+  pk: 9
+  fields:
+    title: 'Sales'
+- model: workers.designation
+  pk: 10
+  fields:
+    title: 'Quality Checker'
+- model: workers.designation
+  pk: 11
+  fields:
+    title: 'Telecaller'
+# Banks
+- model: workers.bank
+  pk: 1
+  fields:
+    name: 'Yes Bank'
+- model: workers.bank
+  pk: 2
+  fields:
+    name: 'HDFC Bank'
+- model: workers.bank
+  pk: 3
+  fields:
+    name: 'Standard Chartered Bank'
+- model: workers.bank
+  pk: 4
+  fields:
+    name: 'State Bank of India'
+- model: workers.bank
+  pk: 5
+  fields:
+    name: 'Canara Bank'
+- model: workers.bank
+  pk: 6
+  fields:
+    name: 'Citi Bank'
+- model: workers.bank
+  pk: 7
+  fields:
+    name: 'Kotak Mahindra Bank'
+# Ifscodes
+- model: workers.ifscode
+  pk: 1
+  fields:
+    code: 'YESB0000262'
+    bank_id: 1
+- model: workers.ifscode
+  pk: 2
+  fields:
+    code: 'HDFC0000001'
+    bank_id: 2
+- model: workers.ifscode
+  pk: 3
+  fields:
+    code: 'SCBL0036078'
+    bank_id: 3
+- model: workers.ifscode
+  pk: 4
+  fields:
+    code: 'SBIN0008752'
+    bank_id: 4
+- model: workers.ifscode
+  pk: 5
+  fields:
+    code: 'CNRR0002640'
+    bank_id: 5
+- model: workers.ifscode
+  pk: 6
+  fields:
+    code: 'YESB0000262'
+    bank_id: 1
+- model: workers.ifscode
+  pk: 7
+  fields:
+    code: 'HDFC0000077'
+    bank_id: 2
+- model: workers.ifscode
+  pk: 8
+  fields:
+    code: 'YESB0000001'
+    bank_id: 1
+- model: workers.ifscode
+  pk: 9
+  fields:
+    code: 'YESB0000001'
+    bank_id: 1
+- model: workers.ifscode
+  pk: 10
+  fields:
+    code: 'CITI0000001'
+    bank_id: 6
+- model: workers.ifscode
+  pk: 11
+  fields:
+    code: 'KKBK0000001'
+    bank_id: 7
+# Accounts
+- model: workers.account
+  pk: 1
+  fields:
+    number: '026291800001191'
+    ifscode_id: 1
+- model: workers.account
+  pk: 2
+  fields:
+    number: '00011020001772'
+    ifscode_id: 2
+- model: workers.account
+  pk: 3
+  fields:
+    number: '000890289871772'
+    ifscode_id: 3
+- model: workers.account
+  pk: 4
+  fields:
+    number: '000100289877623'
+    ifscode_id: 4
+- model: workers.account
+  pk: 5
+  fields:
+    number: '2640101002729'
+    ifscode_id: 5
+- model: workers.account
+  pk: 6
+  fields:
+    number: '026291800001190'
+    ifscode_id: 6
+- model: workers.account
+  pk: 7
+  fields:
+    number: '007711000031'
+    ifscode_id: 7
+- model: workers.account
+  pk: 8
+  fields:
+    number: '00224412311300'
+    ifscode_id: 8
+- model: workers.account
+  pk: 9
+  fields:
+    number: '7766666351000'
+    ifscode_id: 9
+- model: workers.account
+  pk: 10
+  fields:
+    number: '02014457596969'
+    ifscode_id: 10
+- model: workers.account
+  pk: 11
+  fields:
+    number: '34978321547298'
+    ifscode_id: 11
+# Workers
+- model: workers.worker
+  pk: 1
+  fields:
+    name: 'Shantanu Singh'
+    aadhaar_number: '778626750625'
+    total_salary: '80000'
+    account_id: 1
+    designation_id: 1
+    city_id: 1
+    company_id: 1
+    user_id: 1
+- model: workers.worker
+  pk: 2
+  fields:
+    name: 'Eral Ravi'
+    aadhaar_number: '144168113494'
+    total_salary: '100000'
+    account_id: 2
+    designation_id: 2
+    city_id: 2
+    company_id: 2
+    user_id: 1
+- model: workers.worker
+  pk: 3
+  fields:
+    name: 'Aashutosh Chaudhary'
+    aadhaar_number: '596774204807'
+    total_salary: '75000'
+    account_id: 3
+    designation_id: 3
+    city_id: 3
+    company_id: 3
+    user_id: 1
+- model: workers.worker
+  pk: 4
+  fields:
+    name: 'Choudhary Diya'
+    aadhaar_number: '883480851180'
+    total_salary: '53000'
+    account_id: 4
+    designation_id: 4
+    city_id: 4
+    company_id: 4
+    user_id: 1
+- model: workers.worker
+  pk: 5
+  fields:
+    name: 'Varun Gupta'
+    aadhaar_number: '675429806087'
+    total_salary: '75000'
+    account_id: 5
+    designation_id: 5
+    city_id: 5
+    company_id: 5
+    user_id: 1
+- model: workers.worker
+  pk: 6
+  fields:
+    name: 'Rajesh Bhardwaj'
+    aadhaar_number: '540149496512'
+    total_salary: '35000'
+    account_id: 6
+    designation_id: 6
+    city_id: 6
+    company_id: 6
+    user_id: 1
+- model: workers.worker
+  pk: 7
+  fields:
+    name: 'Basuki Choudhary'
+    aadhaar_number: '528836104552'
+    total_salary: '25000'
+    account_id: 7
+    designation_id: 7
+    city_id: 7
+    company_id: 7
+    user_id: 1
+- model: workers.worker
+  pk: 8
+  fields:
+    name: 'Aditya Shrivastav'
+    aadhaar_number: '515989810231'
+    total_salary: '20000'
+    account_id: 8
+    designation_id: 8
+    city_id: 8
+    company_id: 8
+    user_id: 1
+- model: workers.worker
+  pk: 9
+  fields:
+    name: 'Shalini Rai'
+    aadhaar_number: '363895912284'
+    total_salary: '40000'
+    account_id: 9
+    designation_id: 9
+    city_id: 9
+    company_id: 9
+    user_id: 1
+- model: workers.worker
+  pk: 10
+  fields:
+    name: 'Sumit Sachdeva'
+    aadhaar_number: '826866782541'
+    total_salary: '35000'
+    account_id: 10
+    designation_id: 10
+    city_id: 10
+    company_id: 10
+    user_id: 1
+- model: workers.worker
+  pk: 11
+  fields:
+    name: 'Rohit Bhist'
+    aadhaar_number: '234830522706'
+    total_salary: '20000'
+    account_id: 11
+    designation_id: 11
+    city_id: 11
+    company_id: 11
+    user_id: 1

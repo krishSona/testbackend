@@ -1,0 +1,16 @@
+- model: core.employeerange
+  pk: 1
+  fields:
+    number: "0-10"
+- model: core.employeerange
+  pk: 2
+  fields:
+    number: "11-50"
+- model: core.employeerange
+  pk: 3
+  fields:
+    number: "51-100"
+- model: core.employeerange
+  pk: 4
+  fields:
+    number: "101-1000"

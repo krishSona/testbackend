@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block rightcontent %}
+    <div class="ip_main_right">
+		<div class="ip_page_title2">
+			<div class="ip_page_title_text">PAY SALARY</div>
+		</div>
+		<div class="ip_page_maincont">
+			<div class="ip_page_maincont_title">
+				<div class="salary_success_title">Congrats! Salaries are being transferred to workers.</div>
+				<div class="utr_msg">We'll e-mail you the UTR Sheet once transfers are completed.</div>
+				<img class="salary__transfer_gif" src="{% static 'workers/images/salarytransfer.gif' %}">
+				<div class="payment_status_link"><a href="{% url 'workers:payment_status'%}">Check payment status</a></div>
+			</div>
+		</div>
+	</div>
+{% endblock rightcontent %}

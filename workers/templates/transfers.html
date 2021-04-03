@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block rightcontent %}
+	<div class="ip_main_right">
+		<div class="ip_page_title">
+			<div class="ip_page_title_text">{{ count }} transfers</div>
+		</div>
+		<div class="ip_page_maincont">
+			<div class="workers_table">
+				<table style="width: 100%; font-size: 0.7em; margin: auto;">
+					<tbody>
+						<tr style="background: #555; color: #fff;">
+							<th class="table_head">ID</th>
+							<th class="table_head">UTR</th>
+							<th class="table_head">Amount</th>
+							<th class="table_head">Status</th>
+						</tr>
+						{% for transfer in transfers %}
+							<tr class="table_row">
+								<td class="table_cell">{{ transfer.id }}</td>
+								<td class="table_cell" style="text-align: left;">{{ transfer.utr }}</td>
+								<td class="table_cell">{{ transfer.amount }}</td>
+								<td class="table_cell">{{ transfer.status }}</td>
+							</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+				<!-- pagination!-->
+				<ul class="pagination justify-content-center mt-3">
+					{% if transfers.has_previous %}
+						<li class="page-item"><a href="?page=1" class="page-link">&laquo; First</a></li>
+						<li class="page-item"><a href="?page={{ transfers.previous_page_number }}" class="page-link">Previous</a></li>
+					{% else %}
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">&laquo; First</a></li>
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">Previous</a></li>
+					{% endif %}
+
+					{% if transfers.has_next %}
+						<li class="page-item"><a href="?page={{ transfers.next_page_number }}" class="page-link">Next</a></li>
+						<li class="page-item"><a href="?page={{ transfers.paginator.num_pages }}" class="page-link">Last &raquo;</a></li>
+					{% else %}
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">Next</a></li>
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">Last &raquo;</a></li>
+					{% endif %}
+				</ul>
+				<!--pagination!-->
+			</div>
+		</div>
+	</div>
+{% endblock rightcontent %}

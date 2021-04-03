@@ -1,0 +1,136 @@
+- model: core.bank
+  pk: 1
+  fields:
+    name: "State Bank of India"
+- model: core.bank
+  pk: 2
+  fields:
+    name: "Punjab National Bank"
+- model: core.bank
+  pk: 3
+  fields:
+    name: "Bank of Baroda"
+- model: core.bank
+  pk: 4
+  fields:
+    name: "Canara Bank"
+- model: core.bank
+  pk: 5
+  fields:
+    name: "Union Bank of India"
+- model: core.bank
+  pk: 6
+  fields:
+    name: "Bank of India"
+- model: core.bank
+  pk: 7
+  fields:
+    name: "Indian Bank"
+- model: core.bank
+  pk: 8
+  fields:
+    name: "Central Bank of India"
+- model: core.bank
+  pk: 9
+  fields:
+    name: "Indian Overseas Bank"
+- model: core.bank
+  pk: 10
+  fields:
+    name: "UCO Bank"
+- model: core.bank
+  pk: 11
+  fields:
+    name: "Bank of Maharashtra"
+- model: core.bank
+  pk: 12
+  fields:
+    name: "Punjab & Sindh Bank"
+- model: core.bank
+  pk: 13
+  fields:
+    name: "Axis Bank"
+- model: core.bank
+  pk: 14
+  fields:
+    name: "Bandhan Bank"
+- model: core.bank
+  pk: 15
+  fields:
+    name: "Catholic Syrian Bank"
+- model: core.bank
+  pk: 16
+  fields:
+    name: "City Union Bank"
+- model: core.bank
+  pk: 17
+  fields:
+    name: "DCB Bank"
+- model: core.bank
+  pk: 18
+  fields:
+    name: "Dhanlaxmi Bank"
+- model: core.bank
+  pk: 19
+  fields:
+    name: "Federal Bank"
+- model: core.bank
+  pk: 20
+  fields:
+    name: "HDFC Bank"
+- model: core.bank
+  pk: 21
+  fields:
+    name: "ICICI Bank"
+- model: core.bank
+  pk: 22
+  fields:
+    name: "IDBI Bank"
+- model: core.bank
+  pk: 23
+  fields:
+    name: "IDFC First Bank"
+- model: core.bank
+  pk: 24
+  fields:
+    name: "IndusInd Bank"
+- model: core.bank
+  pk: 25
+  fields:
+    name: "Jammu & Kashmir Bank"
+- model: core.bank
+  pk: 26
+  fields:
+    name: "Karnataka Bank"
+- model: core.bank
+  pk: 27
+  fields:
+    name: "Karur Vysya Bank"
+- model: core.bank
+  pk: 28
+  fields:
+    name: "Kotak Mahindra Bank"
+- model: core.bank
+  pk: 29
+  fields:
+    name: "Lakshmi Vilas Bank"
+- model: core.bank
+  pk: 30
+  fields:
+    name: "Nainital Bank"
+- model: core.bank
+  pk: 31
+  fields:
+    name: "RBL Bank"
+- model: core.bank
+  pk: 32
+  fields:
+    name: "South Indian Bank"
+- model: core.bank
+  pk: 33
+  fields:
+    name: "Tamilnad Mercantile Bank"
+- model: core.bank
+  pk: 34
+  fields:
+    name: "Yes Bank"

@@ -1,0 +1,76 @@
+- model: core.department
+  pk: 1
+  fields:
+    name: "Account"
+- model: core.department
+  pk: 2
+  fields:
+    name: "Administration"
+- model: core.department
+  pk: 3
+  fields:
+    name: "Designing"
+- model: core.department
+  pk: 4
+  fields:
+    name: "Dispatch"
+- model: core.department
+  pk: 5
+  fields:
+    name: "Finance"
+- model: core.department
+  pk: 6
+  fields:
+    name: "Human Resource"
+- model: core.department
+  pk: 7
+  fields:
+    name: "Information Technology"
+- model: core.department
+  pk: 8
+  fields:
+    name: "Inspection"
+- model: core.department
+  pk: 9
+  fields:
+    name: "Maintenance"
+- model: core.department
+  pk: 10
+  fields:
+    name: "Marketing"
+- model: core.department
+  pk: 11
+  fields:
+    name: "Packaging"
+- model: core.department
+  pk: 12
+  fields:
+    name: "Procurement"
+- model: core.department
+  pk: 13
+  fields:
+    name: "Production"
+- model: core.department
+  pk: 14
+  fields:
+    name: "Project"
+- model: core.department
+  pk: 15
+  fields:
+    name: "Quality"
+- model: core.department
+  pk: 16
+  fields:
+    name: "Research & Development"
+- model: core.department
+  pk: 17
+  fields:
+    name: "Sales"
+- model: core.department
+  pk: 18
+  fields:
+    name: "Security"
+- model: core.department
+  pk: 19
+  fields:
+    name: "Store"

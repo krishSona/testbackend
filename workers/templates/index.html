@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block rightcontent %}
+	<div class="ip_main_right">
+		<div class="ip_page_title">
+			<div class="ip_page_title_text">MANAGE WORKERS ({{ count }} active workers)</div>
+<!--			<div class="download_utr_button">UPLOAD WORKER LIST</div>-->
+		</div>
+		<form action="{% url 'workers:upload' %}" method="post" enctype="multipart/form-data" class="form-inline pl-5">
+			{% csrf_token %}
+			<div class="form-group">
+				<input type="file" accept=".xlsx" title="Upload excel file" name="excel_file" id="upload_workers_list" class="form-control-file" required="required"/>
+			</div>
+			<input type="submit" value="Upload" id="submit_workers_list" class="btn btn-primary"/>
+		</form>
+		<div class="ip_page_maincont">
+			<div class="ip_page_maincont_subtitle">
+				<img class="subtitle_tip_icon" src="{% static 'pages/images/tip.png'%}"/>
+				<div class="subtitle_text"><strong>Keep your worker list updated by uploading your current worker list at least once every month. </strong><br>Worker list was last updated on March 21, 2020 (XX days ago).</div>
+			</div>
+			<div class="workers_table">
+				<table style="width: 100%; font-size: 0.7em; margin: auto;">
+					<tbody>
+						<tr style="background: #555; color: #fff;">
+							<th class="table_head">ID</th>
+							<th class="table_head">Name</th>
+							<th class="table_head">Phone</th>
+							<th class="table_head">Aadhaar No.</th>
+							<th class="table_head">Company</th>
+							<th class="table_head">City</th>
+							<th class="table_head">Designation</th>
+							<th class="table_head">Salary (INR)</th>
+							<th class="table_head">Bank Name</th>
+							<th class="table_head">Account No.</th>
+							<th class="table_head">IFSC Code</th>
+							<th class="table_head">Verified</th>
+						</tr>
+						{% for worker in workers %}
+							<tr class="table_row">
+								<td class="table_cell">{{ worker.id }}</td>
+								<td class="table_cell" style="text-align: left;">{{ worker.name }}</td>
+								<td class="table_cell">{{ worker.phone }}</td>
+								<td class="table_cell">{{ worker.aadhaar_number }}</td>
+								<td class="table_cell">{{ worker.company.name }}</td>
+								<td class="table_cell">{{ worker.city.name }}</td>
+								<td class="table_cell">{{ worker.designation.title }}</td>
+								<td class="table_cell">{{ worker.total_salary }}</td>
+								<td class="table_cell">{{ worker.account.ifscode.bank.name }}</td>
+								<td class="table_cell">{{ worker.account.number }}</td>
+								<td class="table_cell">{{ worker.account.ifscode.code }}</td>
+								<td class="table_cell">{{ worker.account.is_verified }}</td>
+							</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+				<!-- pagination!-->
+				<ul class="pagination justify-content-center mt-3">
+					{% if workers.has_previous %}
+						<li class="page-item"><a href="?page=1" class="page-link">&laquo; First</a></li>
+						<li class="page-item"><a href="?page={{ workers.previous_page_number }}" class="page-link">Previous</a></li>
+					{% else %}
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">&laquo; First</a></li>
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">Previous</a></li>
+					{% endif %}
+
+					{% if workers.has_next %}
+						<li class="page-item"><a href="?page={{ workers.next_page_number }}" class="page-link">Next</a></li>
+						<li class="page-item"><a href="?page={{ workers.paginator.num_pages }}" class="page-link">Last &raquo;</a></li>
+					{% else %}
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">Next</a></li>
+						<li class="page-item disabled"><a href="javascript:void(0)" class="page-link">Last &raquo;</a></li>
+					{% endif %}
+				</ul>
+				<!--pagination!-->
+			</div>
+		</div>
+	</div>
+{% endblock rightcontent %}

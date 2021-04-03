@@ -1,0 +1,15 @@
+- model: core.setting
+  pk: 1
+  fields:
+    key: "distance"
+    value: "25"
+- model: core.setting
+  pk: 2
+  fields:
+    key: "tester_email"
+    value: "aashutosh@dailysalary.in"
+- model: core.setting
+  pk: 3
+  fields:
+    key: "tester_phone"
+    value: "9990502220"
